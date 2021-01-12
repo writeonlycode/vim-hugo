@@ -2,10 +2,10 @@ function! IsHugoProject()
     let configtoml = findfile('config.toml', '.;')
     if filereadable(configtoml)
         echo "This is a Hugo project!"
-        return true
+        return 1
     else
         echo "This is not a Hugo project..."
-        return false
+        return 0
     endif
 endfunction
 
