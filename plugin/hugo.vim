@@ -10,7 +10,7 @@ function! IsHugoProject()
 endfunction
 
 function! SetGoHtmlTmpl()
-    if IsHugoProject
+    if IsHugoProject()
         set filetype=gohtmltmpl
     endif
 endfunction

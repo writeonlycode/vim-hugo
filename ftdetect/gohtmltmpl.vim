@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.html call SetGoHtmlTmpl
+au BufNewFile,BufRead *.html call SetGoHtmlTmpl()
